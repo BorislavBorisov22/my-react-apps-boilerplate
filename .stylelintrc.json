@@ -1,0 +1,26 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "at-rule-no-vendor-prefix": true,
+    "media-feature-name-no-vendor-prefix": true,
+    "property-no-vendor-prefix": true,
+    "selector-no-vendor-prefix": true,
+    "value-no-vendor-prefix": true,
+    "color-hex-case": "lower",
+    "max-line-length": 120,
+    "declaration-no-important": true,
+    "property-no-unknown": [
+      true,
+      {
+        "ignoreProperties": [
+          "composes"
+        ]
+      }
+    ],
+    "max-nesting-depth": 5,
+    "selector-max-compound-selectors": 5,
+    "selector-max-specificity": "1,5,5",
+    "number-leading-zero": null,
+    "indentation": 2
+  }
+}

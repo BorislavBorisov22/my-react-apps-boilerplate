@@ -1,0 +1,5 @@
+*.json
+e2e
+node_modules
+dist
+vendor

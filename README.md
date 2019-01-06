@@ -1,1 +1,1 @@
-# react-redux-boilerplate
+# join-it-web
