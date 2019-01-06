@@ -1,1 +1,1 @@
-# join-it-web
+# REACT BOILERPLATE
